@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
+import style from "./Home.module.css";
 
 import CharacterCard from "../../components/CharacterCard";
 
@@ -21,10 +22,12 @@ export default function Home(){
     console.log(characters);
     
     return (
-        <div>
-          {characters.map((char)=> (
+        <div className={style.container}>
+            <div className={style.grid}>
+            {characters.map((char)=> (
             <CharacterCard key={char.id} character={char} />
           ))}
+            </div>
         </div>
     );
 }

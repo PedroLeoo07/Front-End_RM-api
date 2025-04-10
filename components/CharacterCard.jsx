@@ -8,8 +8,8 @@ export default function CharacterCard( { character } ) {
             alt={character.name}
             className={styles.avatar}
             />
-            <h3 className={styles.title}>Olá</h3>
-            <p>Essa é a página inicial</p>
+            <h3 className={styles.title}>{character.name}</h3>
+            <p className={styles.p}>{character.description}</p>
         </div>
     );
 }
