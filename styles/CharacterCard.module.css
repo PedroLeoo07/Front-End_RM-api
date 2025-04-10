@@ -1,0 +1,25 @@
+.card{
+    width: 275px;
+    background-color: white;
+    border: red 1px solid;
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: tranfsform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.avatar{
+    width: 125px;
+    border-radius: 50%;
+}
+
+.title {
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
