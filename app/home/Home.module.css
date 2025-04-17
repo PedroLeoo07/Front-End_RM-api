@@ -1,19 +1,90 @@
-.container{
-   background-image: url("/background.jpg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-    min-height: 100vh;
+.container {
     padding: 2rem;
-    background-attachment: fixed; 
-}
-
-.grid{
+    background-image: url("/Background.jpg");
+    background-color: #000000;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: content-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  .controls {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
-}
+  }
+  
+  .input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .buttonSearch {
+    width: 122px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: lightgreen;
+    padding: 10px 20px; 
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .buttonSearch:hover {
+    background-color: green;
+    color: lightgray;
+  }
+  
+  .buttonReset {
+    width: 122px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .buttonReset:hover {
+    background-color: darkred;
+    color: lightgray;
+  }
+  
+  .loading {
+    text-align: center;
+  }
+  
+  .notFound {
+    font-size: 2.5rem;
+    text-align: center;
+    color: tomato;
+    margin-top: 4rem;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
