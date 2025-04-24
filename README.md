@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌌 Rick and Morty Front-End (Next.js)
 
-## Getting Started
+Interface web construída com Next.js que consome a API do universo de Rick and Morty! Explore personagens, episódios e localizações com uma navegação rápida e responsiva.
 
-First, run the development server:
+## ⚙️ Tecnologias utilizadas
+Next.js (React)
 
-```bash
+Axios
+
+Tailwind CSS
+
+React Icons
+
+API pública ou customizada do Rick and Morty
+
+## 🚀 Instalação
+Clone o repositório:
+
+git clone https://github.com/PedroLeoo07/Front-End_RM-api
+
+cd Front-End_RM-api
+
+npm install
+
+
+## ▶️ Inicie o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌐 Funcionalidades
+✅ Listagem de personagens com imagens e dados principais
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔍 Filtros por nome, status, gênero (se aplicável)
 
-## Learn More
+📄 Página de detalhes de personagens
 
-To learn more about Next.js, take a look at the following resources:
+📺 Página de episódios
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🌍 Página de localizações
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔄 Paginação com rota dinâmica ([id].jsx)
 
-## Deploy on Vercel
+## 📌 Notas
+Projeto ideal para praticar Next.js, rotas dinâmicas e consumo de APIs REST.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pode ser estendido com SSR, SSG ou Incremental Static Regeneration (ISR).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Design responsivo e com foco em performance.
+
+## 🤝 Contribuições
+Contribuições são bem-vindas! Abra uma issue ou pull request para colaborar.
+
+## 📄 Licença
+MIT
