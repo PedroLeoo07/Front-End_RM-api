@@ -34,7 +34,7 @@
   
   .buttonSearch {
     width: 122px;
-    height: 40px;
+    height: 60px;
     border-radius: 8px;
     background-color: lightgreen;
     padding: 10px 20px; 
@@ -87,4 +87,144 @@
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+  }
+
+    .buttonSearch,
+    .buttonReset,
+    .buttonNav {
+      padding: 20px 20px;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      user-select: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: white;
+    }
+
+    .buttonSearch{
+      background: linear-gradient( 135deg, #28a745, #34d058);
+    }
+
+    .buttonSearch:hover{
+      background: linear-gradient( 135deg, #218838, #29a745);
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .buttonReset{
+      background: linear-gradient( 135deg, #dc3545, #e03131);
+    }
+
+    .buttonReset:hover{
+      background: linear-gradient( 135deg, #c82333, #d63384);
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+    .buttonNav{
+      background: linear-gradient( 135deg, #007bff, #0d6efd);
+    }
+
+    .buttonNav:hover{
+      background: linear-gradient( 135deg, #0056b3, #0d6efd);
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .buttonNav:active{
+      transform: translate(1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .buttonNav:disabled{
+      opacity: 0,5;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .pageIndicator {
+      font-weight: bold;
+      font-size: 1.5rem;
+      background-color: white;
+      padding: 8px 16px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  .loading {
+      text-align: center;
+      color: #fff;
+      font-size: 1.25rem;
+      margin-top: 2rem;
+  }
+  
+  .notFound {
+      font-size: 2rem;
+      text-align: center;
+      color: tomato;
+      margin-top: 4rem;
+      text-shadow: 1px 1px 3px black;
+  }
+  
+  .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+  }
+  
+  .navControls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+  }
+  
+  .pagination {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+  }
+  
+  .fadeIn {
+      opacity: 1;
+      transition: opacity 0.5s ease-in;
+  }
+  
+  .fadeOut {
+      opacity: 0;
+      transition: opacity 0.5s ease-out;
+      pointer-events: none;
+  }
+  
+  .loaderWrapper {
+      opacity: 1;
+      transition: opacity 0.3s ease-out;
+    }
+    
+    .loaderWrapper.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+  @media (max-width: 600px) {
+      .input {
+          width: 100%;
+      }
+  
+      .buttonSearch,
+      .buttonReset,
+      .buttonNav {
+          width: 100%;
+      }
+  
+      .controls,
+      .navControls {
+          flex-direction: column;
+          align-items: center;
+      }
   }
