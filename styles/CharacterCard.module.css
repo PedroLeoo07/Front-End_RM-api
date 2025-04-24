@@ -1,31 +1,59 @@
-.card{
-    width: 275px;
-    background-color: white;
-    border: red 1px solid;
-    padding: 1rem;
-    border-radius: 15px;
+.card {
+    width: 300px;
+    height: 440px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     text-align: center;
-    transition: tranfsform 0.2s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    gap: 10px;
-}
-
-.card:hover{
-    transform: scale(1.1);
-}
-
-.avatar{
-    width: 125px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/path/to/your/image.jpg') no-repeat center center / cover;
+    filter: brightness(0.9);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/path/to/your/image.jpg') no-repeat center center / cover;
+    filter: brightness(0.9);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  .avatar {
+    object-fit: cover;
     border-radius: 50%;
-}
-
-.title {
-    margin: 10px 0 5px;
-    font-size: 20px;
-}
-
-.p{
-    margin: 20px;
-    font-size: 14px;
-    color: #ff0000;
-}
+    border: 3px solid #005972;
+    box-shadow: 0 0 12px rgba(3, 15, 18, 0.4);
+    
+  }
+  
+  .title {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
