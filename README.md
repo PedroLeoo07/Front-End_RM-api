@@ -2,6 +2,18 @@
 
 Interface web construída com Next.js que consome a API do universo de Rick and Morty! Explore personagens, episódios e localizações com uma navegação rápida e responsiva.
 
+## 📸 Demontração da API 
+<p align="center">
+  <img src="./public/PrintDesktop.png" alt="Preview Desktop" width="500"/>
+  <br/>
+  <span>Versão para Desktop</span>
+  <br/><br/>
+  <img src="./public/PrintMobile.png" alt="Preview Mobile" width="150"/>
+  <br/>
+  <span>Versão para Mobile</span>
+</p>
+
+
 ## ⚙️ Tecnologias utilizadas
 Next.js (React)
 
@@ -41,14 +53,13 @@ npm run dev
 🔄 Paginação com rota dinâmica ([id].jsx)
 
 ## 📌 Notas
-Projeto ideal para praticar Next.js, rotas dinâmicas e consumo de APIs REST.
 
-Pode ser estendido com SSR, SSG ou Incremental Static Regeneration (ISR).
+Este projeto é ideal para praticar habilidades com Next.js, incluindo o uso de rotas dinâmicas e consumo de APIs REST. Além disso, pode ser expandido para explorar técnicas avançadas como Server-Side Rendering (SSR), Static Site Generation (SSG) ou Incremental Static Regeneration (ISR).
 
-Design responsivo e com foco em performance.
+Com um design responsivo e foco em performance, este projeto oferece uma excelente oportunidade para aprimorar conhecimentos em desenvolvimento front-end moderno.
 
 ## 🤝 Contribuições
-Contribuições são bem-vindas! Abra uma issue ou pull request para colaborar.
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas, sugerir melhorias ou discutir novas ideias. Caso queira colaborar diretamente, envie um pull request com sua proposta. Vamos construir juntos!
 
 ## 📄 Licença
-MIT
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
